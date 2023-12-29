@@ -1,0 +1,161 @@
+
+.container{
+    margin-top: 20px;
+    font-family: 'rubik', sans-serif;    
+}
+.container h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 40px;
+}
+.container input{
+    width: 90%;
+    margin-left: -70px;
+    height: 36px;
+}
+#border{
+    border-top: 0.5px solid rgb(234, 221, 221);
+}
+.todo-row{
+    margin: 10px 5px;
+}
+.button{
+    min-width: 80px;
+}
+.p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+table{
+    margin-left: 30px;
+}
+.name{
+    margin-left: -20px;
+}
+.column{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: rgb(246, 246, 246);
+}
+.padding{
+    padding: 5px;
+    font-size: 18.5px;   
+    text-align: center;
+ 
+}
+.icon{
+    font-size: 1.3rem;
+}
+
+.del{
+    min-width: 80px;
+}
+.flex{
+    display: flex;
+    gap: 8px;
+}
+#fill_color{
+    background-color: rgb(223, 143, 143);
+    border-radius: 5px;
+}
+#fill_nocolor{
+    background-color: white;
+    border-radius: 5px;
+}
+#pointer{
+    cursor: pointer;
+}
+
+ img{
+    height: 50vh;
+    width: 55vh;
+}
+.handleEvent{
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+}
+.handleEvent span{
+    font-size: 20.5px;
+}
+#string {
+    display: flex;
+    flex-direction: column;
+    font-size: 5px;
+    text-align: center;
+    animation: move 3s infinite;
+  }
+#string h5{
+    font-size: 40px;
+    
+}
+
+#flex{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+.greeting {
+    position: relative;
+    top: 0.5vmin;
+    animation: white-out 5s infinite;
+  }
+  .closure::after {
+    content: '';
+    position: absolute;
+    height: 15vmin;
+    width: 55vmin;
+    background: white;
+    transform: translate(-55vmin, -16.5vmin);
+  }
+
+  .closure::before {
+    content: '';
+    position: absolute;
+    height: 35vmin;
+    width: 55vmin;
+    background: white;
+    transform: translate(-50vmin, 5vmin);
+  }
+  .en {
+    color: orange;
+  }
+  
+  .es {
+    color: red;
+  }
+  
+  .de {
+    color: #c678dd;
+  }
+  
+  .it {
+    color: #a9b0bd;
+  }
+  .hexa{
+    background-color: blue;
+    color: whitesmoke;
+  }
+  .out{
+    background-color: red;
+    color: whitesmoke;
+  }
+  .system{
+    font-size: 1.8rem;
+  }
+  .sys{
+    background-color: orange;
+    color: whitesmoke;
+  }
+  @keyframes move {
+    25% {
+      transform: translatey(-5.8vmin);
+      opacity: 1;
+    }
+    50% {
+      transform: translatey(-11vmin);
+    }
+    75% {
+      transform: translatey(-16.5vmin);
+    }
+  }
